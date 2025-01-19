@@ -1,7 +1,19 @@
-<style>
+#pfp_img {
+	width: 187px;
+	height: 187px;
+	border-radius: 187px;
+}
 
-  #content {
+
+
+#content_border {
     background-color: #668A9C;
-  }
+	padding: 20px;
+ }
+ 
+ 
+ #content {
+	background-color: #447180;
+	padding: 10px;
+ }
 
-</style>
