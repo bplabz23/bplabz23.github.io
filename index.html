@@ -4,132 +4,7 @@
 
 
 <head>
-
-  
-  <style>
-  
-  body 
-{
-	background-color: #0B1F3A;	
-}
-
-
-
-#page_pad
-{
-	padding: 100px;
-}
-
-
-
-
-#banner {
-	max-height: 150px;
-
-}
-
-
-
-#banner_img {
-	width: 1066px;
-	position: relative;
-	top: 20px;
-	left: 120px;
-}
-
-
-
-#pfp_img {
-	width: 160px;
-	height: 160px;
-	border-radius: 160px;
-	position: relative;
-	top: 160px;
-	left: 185px;
-}
-
-
-
-#content_pad {
-    background-color: #76101E;
-	padding: 6px;
-	max-width: 1055px;
-	position: relative;
-	top: 100px;
-	left: 120px;
-	z-index:-1;
- }
- 
- 
-#content {
-	background-color: #133769;
-	padding: 50px;
- }
-
-
-
-
-
-.content {
-	color: #C2DDE4;
-	padding: 5px;
-	font-size: 17px;
-
-}
-
-
-.content_divider {
-	padding: 15px;
-}
-
-
-
-.project{
-	padding: 15px;
-}
-
-.project_padding {
-	padding: 5px;
-}
-
-
-
-.center_text{
-	text-align: center;
-}
-
-
-.project_p {
-	text-indent: 40px;
-	
-}
-
-
-
-.center_img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
-}
-
-
-#PFG {
-	border: 5px outset #C2DDE4;
-}
-
-
-
-
-h2 {
-	color: #C2DDE4;
-}
-
-
-
-
-  </style>
-  
+  <link rel="stylesheet" href="landing.css">
 </head>
 
 
@@ -188,8 +63,13 @@ h2 {
 					
 					<div class="project_padding"></div>
 					
+					<h4><i>Background</i></h4>
 					<p class="project_p">	A function generator (FG) is an electronic device that outputs a specific sequence of voltages to produce a desired electric signal. The output voltage at a given moment is determined by the current time and the desired pattern/signal. A programmable function generator(PFG) is simply an FG that offers adjustable settings (i.e. shape, size) to the user, allowing for the generation of more than just one signal. Most often, FPGs are used by engineers and technicians to test and repair various transient circuits and equipment, such as amplifiers.</p>
-					<p class="project_p">	There are two ways a FPG can be implemented: a hardware-based solution or a software-based solution. </p>
+					<p class="project_p">	There are two ways a FPG can be implemented: a hardware-based solution or a software-based solution. In a hardware-based approach, an electronic circuit is built to achieve function generation. In a software-based approach, a computer/microcontroller is programmed to calculate output voltage values. The desired signal/pattern is represented as a digital signal, a sequence of numbers being outputted in real-time. This stream of voltage data is then fed into a digital-to-analog converter, who generates the actual voltages on a wire in real-time.</p>
+					
+					<h4><i>Project Briefing</i></h4>
+					<p class="project_p"> For the final project of my embedded systems class, I was tasked with creating a software-based PFG based off a STMicroelectronics microcontroller. This project was very exhaustive in the amount of work <u>and</u> expertise required in its completion: the entire project was written in assembly; required intensive reading of microcontroller datasheets and programmer manuals; had to utilize interrupts and event-driven design to meet the stringent deadlines of multiple concurrent processes in real-time; and used no external libraries under any circumstances whatsoever.</p>
+					
 					
 				</div>
 				
