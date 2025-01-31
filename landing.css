@@ -21,10 +21,11 @@ body
 
 
 #banner_img {
-	width: 1066px;
+	width: 1067px;
 	position: relative;
 	top: 20px;
 	left: 120px;
+	z-index:1;
 }
 
 
@@ -36,6 +37,7 @@ body
 	position: relative;
 	top: 160px;
 	left: 185px;
+	z-index:1;
 }
 
 
@@ -47,7 +49,7 @@ body
 	position: relative;
 	top: 100px;
 	left: 120px;
-	z-index:-1;
+	z-index:0;
  }
  
  
@@ -117,3 +119,31 @@ h2 {
 
 
 
+
+
+a:link {
+text-decoration: underline;
+color: #C2DDE4;
+}
+
+
+
+a:visited {
+text-decoration: underline;
+color: #2E85FF;
+}
+
+
+a:hover
+{
+text-decoration: none;
+color: #2E85FF;
+}
+
+
+
+a:active
+{
+text-decoration: underline;
+color: #C9374C;
+}
